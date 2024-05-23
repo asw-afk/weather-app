@@ -6,6 +6,17 @@ header {
  
 }
 
+main {
+ display: flex;   
+ flex-direction: row;
+}
+
+#search {
+background-color: teal;
+color:aliceblue;
+
+}
+
 aside {
     display: flex;
     flex-direction: column;

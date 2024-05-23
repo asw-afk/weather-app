@@ -21,20 +21,22 @@
 <!-- Drop down of sugestions -->
 <!-- Needs the search suggestion app from jquery 
 needs a unique id tag for css -->
-
 <h1>Search for a City:</h1>
 <input type="text" placeholder="Search...">
-<button>Search</button>
+<button id="search">Search</button>
 </aside>
 
+
 <div>
-    <!-- search results for the day -->
+  
 
     <h1>
         <!-- Location and date display here, need tiny picture to represent forecast -->
-   
+        TEST
         <!-- Needs unique css ID from 5-day forecast to render white background -->
     </h1>
+
+
 
 </div>
 
@@ -52,10 +54,20 @@ needs a unique id tag for css -->
 
     humidity display 
     
-    2. add unique id classes so you can add media queries in the logic-->
+    2. add unique id classes so you can add media queries in the logic
+
+    need to add both the 5day forecastr and current day forcast to the same div 
+    and seperate them with more internal tags  -->
+    
+    <article></article>
+
+    <section></section>
+
+    
+
 </div>
 
 </body>
-<script src="https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={41779050d33997f1e038c319cda10442}"></script>
+<script href="https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={41779050d33997f1e038c319cda10442}"></script>
 <script src="./assets/script.js"></script>
 </html>
