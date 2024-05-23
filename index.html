@@ -12,7 +12,7 @@
 <body>
 
 <header>
-    <p>Weather Dashboard</p>
+    <h2>Weather Dashboard</h2>
 </header>
 
 
@@ -21,6 +21,10 @@
 <!-- Drop down of sugestions -->
 <!-- Needs the search suggestion app from jquery 
 needs a unique id tag for css -->
+
+<h1>Search for a City:</h1>
+<input type="text" placeholder="Search...">
+<button>Search</button>
 </aside>
 
 <div>
@@ -52,6 +56,6 @@ needs a unique id tag for css -->
 </div>
 
 </body>
-
+<script src="https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={41779050d33997f1e038c319cda10442}"></script>
 <script src="./assets/script.js"></script>
 </html>

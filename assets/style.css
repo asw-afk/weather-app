@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+ 
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
