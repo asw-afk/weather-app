@@ -29,12 +29,6 @@ color:aliceblue;
     size: 120px;
 }
 
-#chips {
-    border-style: solid;
-    border-width: 1px;
-     margin-bottom: 20px;
-     
-}
 
 aside {
     display: flex;
