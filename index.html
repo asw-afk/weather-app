@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Weather App</title>
-<!-- <link rel="stylesheet" href="./assets/style.css"> -->
+<link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     </div>
 
 </aside>
-
+<center>
 <section id="weather">
 
 <img src = "assets/images/rain.png" class ="weather-icon">
@@ -45,40 +45,87 @@
 
         </div>
     </div>
-<h1>
-    <!-- Location and date display here, need tiny picture to represent forecast -->
-    TEST
-    <!-- Needs unique css ID from 5-day forecast to render white background -->
-</h1>
+</center>
 
 </section>
 
+<button class="suggestedPlaces"></button>
+<button class="suggestedPlaces"></button>
+<button class="suggestedPlaces"></button>
+<button class="suggestedPlaces"></button>
+<button class="suggestedPlaces"></button>
 
 
 <div>
-    <!-- 5-day forecast -->
+   
 
-    <!-- Need date display
+        <center>
+
+            <h1>
+                5-Day Weather Forecast
+           </h1>
+
+        </h1>
     
-    need picture for forecast, arguably trickiest part
-
-    temp display
-
-    wind display
-
-    humidity display 
+        <p id="inputContainer">City: <input type="text"id="cityInput"></p>
+        <button>Click Me</button>
+        <h2 id="cityName">--London--</h2>
     
-    2. add unique id classes so you can add media queries in the logic
+        </center>
+        <div id="weatherContainer">
+            <div class="icons">
+                <p class="weather" id="day1"></p>
+                <div class="image">
+                    <img src="assets/images/humidity.png" class="imgClass" id="img1">
+                    </div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="minValues" id="day1Max">Loading...</p>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                </div>
 
-    need to add both the 5day forecastr and current day forcast to the same div 
-    and seperate them with more internal tags  -->
-    
-    <article></article>
+                    <div id="weatherContainer">
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <div class="image">
+                    <img src="assets/images/humidity.png" class="imgClass" id="img1">
+                    </div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="minValues" id="day1Max">Loading...</p>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                </div>
 
-    <section></section>
+                <div class="icons">
+                    <p class="weather" id="day3"></p>
+                    <div class="image">
+                        <img src="assets/images/humidity.png" class="imgClass" id="img1">
+                        </div>
+                        <p class="minValues" id="day1Min">Loading...</p>
+                        <p class="minValues" id="day1Max">Loading...</p>
+                        <p class="minValues" id="day1Min">Loading...</p>
+                    </div>
 
-    
+                    <div class="icons">
+                        <p class="weather" id="day4"></p>
+                        <div class="image">
+                            <img src="assets/images/humidity.png" class="imgClass" id="img1">
+                            </div>
+                            <p class="minValues" id="day1Min">Loading...</p>
+                            <p class="minValues" id="day1Max">Loading...</p>
+                            <p class="minValues" id="day1Min">Loading...</p>
+                        </div>
 
+                        <div class="icons">
+                            <p class="weather" id="day5"></p>
+                            <div class="image">
+                                <img src="assets/images/humidity.png" class="imgClass" id="img1">
+                                </div>
+                                <p class="minValues" id="day1Min">Loading...</p>
+                                <p class="minValues" id="day1Max">Loading...</p>
+                                <p class="minValues" id="day1Min">Loading...</p>
+                            </div>
+
+        </div>
+   
 </div>
 
 </body>
